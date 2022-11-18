@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.example{
+  display: flex;
+  flex-wrap: wrap;
+  width: 620px;
+  height: 620px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.parent{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.purple{
+  background-color: purple;
+}
+.child {
+  background-color:palegreen;
+  width: 140px;
+  height: 140px;
+}
+.cl{
+  background-color: rgb(17, 179, 233);
+}
